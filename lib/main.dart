@@ -1,4 +1,3 @@
-import 'package:bytebank_armazenamento_interno/screens/contacts_list.dart';
 import 'package:bytebank_armazenamento_interno/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
