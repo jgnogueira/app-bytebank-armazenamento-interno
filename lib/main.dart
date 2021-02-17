@@ -15,6 +15,15 @@ class Bytebank extends StatelessWidget {
         body: Column(
           children: <Widget>[
             Image.asset('images/bytebank_logo.png'),
+            Container(
+              color: Colors.green,
+              child: Column(
+                children: <Widget>[
+                  Icon(Icons.people),
+                  Text('Contacts'),
+                ],
+              ),
+            ),
           ],
         ),
       ),
