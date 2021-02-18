@@ -3,20 +3,7 @@ import 'package:bytebank_armazenamento_interno/models/contact.dart';
 import 'package:bytebank_armazenamento_interno/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(Bytebank());
-  save(Contact(0, 'Durant', 1000)).then(
-    (id) {
-      findAll().then(
-        (contacts) {
-          debugPrint(
-            contacts.toString(),
-          );
-        },
-      );
-    },
-  );
-}
+void main() => runApp(Bytebank());
 
 class Bytebank extends StatelessWidget {
   @override
