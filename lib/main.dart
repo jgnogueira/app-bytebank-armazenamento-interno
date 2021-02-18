@@ -1,5 +1,3 @@
-import 'package:bytebank_armazenamento_interno/database/app_database.dart';
-import 'package:bytebank_armazenamento_interno/models/contact.dart';
 import 'package:bytebank_armazenamento_interno/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
