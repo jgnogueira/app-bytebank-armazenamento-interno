@@ -22,7 +22,6 @@ Future<int> save(Contact contact) {
   return createDatabase().then(
     (db) {
       final Map<String, dynamic> contactMap = Map();
-      contactMap['id'] = contact.id;
       contactMap['name'] = contact.name;
       contactMap['account_number'] = contact.accountNumber;
       return db.insert('contacts', contactMap);
