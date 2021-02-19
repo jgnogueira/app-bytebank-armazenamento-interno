@@ -13,6 +13,7 @@ Future<Database> createDatabase() {
               'CREATE TABLE contacts(id INTEGER PRIMARY KEY, name TEXT, account_number INTEGER)');
         },
         version: 1,
+        onDowngrade: onDatabaseDowngradeDelete,
       );
     },
   );
